@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Laundry Wallah / Laundry Mart</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .services {
+      margin-bottom: 20px;
+    }
+
+    .price-list {
+      margin-bottom: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    .book-now {
+      text-align: center;
+    }
+
+    .book-now input {
+      margin: 10px;
+      padding: 8px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Laundry Wallah / Laundry Mart</h1>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About Us</h2>
+      <p>Welcome to Laundry Wallah / Laundry Mart, your one-stop solution for all your laundry needs. We offer a wide range of services to ensure your clothes are cleaned and cared for to the highest standards. Our dedicated team uses top-notch equipment and eco-friendly cleaning products, ensuring a hassle-free and efficient experience. With a focus on quality and customer satisfaction, we take care of your garments as if they were our own.</p>
+    </section>
+    <section>
+      <img src="./task1.jpg" alt="Laundry Machine" width="300">
+    </section>
+    <section class="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Washing and Drying</li>
+        <li>Ironing and Folding</li>
+        <li>Dry Cleaning</li>
+        <li>Stain Removal</li>
+        <li>Express Services</li>
+        <li>Special Garment Care</li>
+        <li>And more...</li>
+      </ul>
+    </section>
+    <section class="price-list">
+      <h2>Price List</h2>
+      <table>
+        <tr>
+          <th>Service</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Washing and Drying</td>
+          <td>$10.00</td>
+        </tr>
+        <tr>
+          <td>Ironing and Folding</td>
+          <td>$5.00</td>
+        </tr>
+      </table>
+    </section>
+    <section class="book-now">
+      <h2>Book Now</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>Contact us at: info@laundrymart.com</p>
+  </footer>
+
+</body>
+</html>
